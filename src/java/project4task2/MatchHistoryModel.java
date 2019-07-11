@@ -26,7 +26,7 @@ import java.math.BigInteger;
 public class MatchHistoryModel {
     
     // initialize the member variables: key, MatchHistory object
-    String key = "AD9247C0F7D06E3AEC94803E141CBB47";
+    String key = "Your Key Here";
     MatchHistory mh= null;
     
     //maps and lists containing the results
