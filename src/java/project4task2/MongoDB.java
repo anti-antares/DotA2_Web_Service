@@ -30,7 +30,7 @@ public class MongoDB {
      */
     public MongoDB(){
     uri = new MongoClientURI(
-    "mongodb://zhexinc:c6269502@cluster0-shard-00-00-9tgkk.mongodb.net:27017,cluster0-shard-00-01-9tgkk.mongodb.net:27017,cluster0-shard-00-02-9tgkk.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true");
+    "mongodb://zhexinc:mypassword@cluster0-shard-00-00-9tgkk.mongodb.net:27017,cluster0-shard-00-01-9tgkk.mongodb.net:27017,cluster0-shard-00-02-9tgkk.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true");
     mongoClient = new MongoClient(uri);
     database = mongoClient.getDatabase("test");
     collection = database.getCollection("test");
